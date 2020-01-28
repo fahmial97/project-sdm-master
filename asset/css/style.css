@@ -320,7 +320,7 @@ header.masthead p {
  }  
  
 
- #portfolio img.img-fluid {
+ #portfolio img.img-porto {
      max-width: 300px;
      max-height: 200px;
      display: block;
@@ -330,7 +330,7 @@ header.masthead p {
      transition: .3s ease-in-out;
  }
 
-  #portfolio img.img-fluid:hover {
+  #portfolio img.img-porto:hover {
       opacity: 0.7;
   }
 
