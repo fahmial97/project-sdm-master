@@ -36,7 +36,6 @@
         }
     };
 
-
     // Collapse now if page is not at top
     navbarCollapse();
     // Collapse the navbar when page is scrolled
@@ -68,7 +67,7 @@
  $('.slider-area').slick({
      centerMode: true,
      centerPadding: '50px',
-     slidesToShow: 3,
+     slidesToShow:3, // slide show untuk 2 klien (hapus jika sudah bertambah)
        autoplay: true,
            autoplaySpeed: 2000,
      responsive: [{
