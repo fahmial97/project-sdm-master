@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Public+Sans|Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700i&display=swap');
 
 body,
 html {
@@ -13,7 +14,7 @@ body {
 hr {
     max-width: 50px;
     border-width: 3px;
-    border-color: #105BC3;
+    border-color: #1b89be;
 }
 
 hr.light {
@@ -26,14 +27,14 @@ hr.hr-contact{
 }
 
 a {
-    color: #105BC3;
+    color: #1b89be;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s;
 }
 
 a:hover {
-    color: #105BC3;
+    color: #1b89be;
     text-decoration: none;
 }
 
@@ -41,14 +42,7 @@ a:hover {
     color: #eae000;
 }
 
-h1 {
-    font-family: 'Open Sans',
-        'Helvetica Neue',
-        Arial,
-        sans-serif;
-        
-}
-
+h1 {font-family: 'Montserrat', sans-serif;}
 h2,
 h3,
 h4,
@@ -59,11 +53,11 @@ h6 {
 }
 
 .bg-service {
-    background-color: #105BC3;
+    background-color: #1b89be;
 }
 
 .bg-primary {
-    background-color: #105BC3 !important;
+    background-color: #1b89be !important;
 }
 
 .bg-dark {
@@ -71,7 +65,7 @@ h6 {
 }
 
 .text-icon {
-    color: #105BC3;
+    color: #1b89be;
 
 }
 
@@ -88,7 +82,7 @@ section {
 }
 
 section.contact{
-    background-color: #327DB7;
+    background-color: #1b89be;
     color: white;
 }
 
@@ -116,20 +110,7 @@ color: red;
     background: #212529;
     text-shadow: none;
 }
-/* 
-img::selection {
-    color: #fff;
-    background: transparent;
-}
 
-img::-moz-selection {
-    color: #fff;
-    background: transparent;
-} */
-
-img.experience:hover {
-    opacity: 1;
-}
 
 .img-navbar {
     max-width: 10rem;
@@ -153,13 +134,13 @@ img.experience:hover {
 #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #105BC3;
+    color: #1b89be;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #105BC3;
+    color: #1b89be;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link,
@@ -172,12 +153,12 @@ img.experience:hover {
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link:hover,
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-    color: #105BC3;
+    color: #1b89be;
 }
 
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active,
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-    color: #105BC3 !important;
+    color: #1b89be !important;
     background-color: transparent;
 }
 
@@ -221,7 +202,7 @@ img.experience:hover {
     }
 
     #mainNav.navbar-shrink .navbar-brand {
-        color: #105BC3;
+        color: #1b89be;
     }
 
     #mainNav.navbar-shrink .navbar-brand:focus,
@@ -236,7 +217,7 @@ img.experience:hover {
 
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover,
     #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover {
-        color: #105BC3;
+        color: #1b89be;
     }
 }
 
@@ -337,12 +318,9 @@ header.masthead p {
  .slick-current {
      opacity: 1;
  }  
+ 
 
-  #portfolio.hover12 img {
-      background: #1abc9c;
-  }
-
- #portfolio img.img-fluid {
+ #portfolio img.img-porto {
      max-width: 300px;
      max-height: 200px;
      display: block;
@@ -352,35 +330,24 @@ header.masthead p {
      transition: .3s ease-in-out;
  }
 
-  #portfolio img.img-fluid:hover {
+  #portfolio img.img-porto:hover {
       opacity: 0.7;
   }
 
-  /* Opacity #2 */
-.hover12 figure {
-	background: #1abc9c;
-}
-.hover12 figure img {
-	opacity: 1;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover12 figure:hover img {
-	opacity: .5;
+
+.bg-karir {
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../img/back-logo.png");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-@media (min-width: 768px) {
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        font-size: 16px;
-    }
-
-    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px;
-    }
-}
 
 .text-primary {
-    color: #105BC3 !important;
+    color: #1b89be !important;
 }
 
 .btn {
@@ -396,20 +363,20 @@ header.masthead p {
 }
 
 .btn-primary {
-    background-color: #105BC3;
-    border-color: #105BC3;
+    background-color: #1b89be;
+    border-color: #1b89be;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-    color: #105BC3;
+    color: #1b89be;
     background-color: #fff !important;
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-    box-shadow: 0 0 0 0.2rem #105BC3 !important;
+    box-shadow: 0 0 0 0.2rem #1b89be !important;
 }
 
 .copyright{
