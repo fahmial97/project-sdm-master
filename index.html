@@ -7,10 +7,14 @@
     <title>Sahabat Dua Muda</title>
 
     <!-- Bootstrap 4.4-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Jquery -->
+     <script src="vendor/jquery/jquery.min.js"></script>
+     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     
     <!-- font awesome 5.12.0-->
-     <script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" data-auto-a11y="true"></script>
+     <script defer src="vendor/font-awesome/js/all.js"></script>
 
      <!-- slick 1.8.1-->    
     <link rel="stylesheet" type="text/css" href="vendor/slick/slick.css" />
@@ -117,7 +121,7 @@
   </section>
 
 
-  <section class="bg-primary my-5">
+  <section class="bg-primary py-5">
       <!-- Visi & Misi-->
       <div class="container my-3 px-5 text-center">
           <div class="row text-white">
@@ -165,7 +169,7 @@
           </div>
       </div>
 
-      <div class="container p-5">
+      <div class="container p-3">
           <div class="row justify-content-center px-5 text-center">
               <div class="col-lg-4 sr-icons">
                   <div class="service-box mt-5 mx-auto ">
@@ -279,7 +283,7 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body m-3">
+            <div class="modal-body">
                 <img class="img-fluid" src="asset/img/portfolio/porto3.jpeg">
                 <div class="mt-3">
                     <button type="button" class="btn btn-danger font-weight-light text-lowercase"
@@ -289,9 +293,7 @@
         </div>
     </div>
     </div>
-
-
-            <div class=" mb-0 pb-0">
+            <div class="mb-0 pb-0">
                 <div class="text-center pt-5 ">
                     <h3 class="section-heading font-weight-bold "><span class="text-primary">Klien</span> Kami
                     </h3>
@@ -318,126 +320,129 @@
       </div>
   </section>
   
-    <!-- Karir -->
     <section id="karir" class="mb-n5">
     <h3 class="section-heading font-weight-bold text-center">Lowongan <span class="text-primary">Pekerjan</span></h3>
-        <hr class="mb-0 pb-2">
-        <div class="bg-karir mt-0 pt-md-3 pt-0">
-        <div class="container text-center">
+    <hr class="mb-0 pb-2">
+     <div class="bg-karir mt-0 pt-md-3 pt-0">
+      <div class="container text-center">
         <div class="row p-0 m-0 ">
             <div class=" col-lg-10">
-                 <div class="accordion " id="accordionExample">
-                     <a type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
-                         aria-controls="collapseOne">
-                         <div class="card shadow-sm rounded">
-                             <div class="card-header" id="headingOne">
-                                 <h5 class="mb-0">
-                                     <div class="row">
-                                         <div class="col-10 text-left">
-                                             Office Boy (OB)
-                                         </div>
-                                         <div class="col-2 text-right">
-                                             <i class="fa fa-angle-down "></i>
-                                         </div>
-                                     </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="card mt-3">
+                        <a type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                            aria-controls="collapseOne">
+                            <div class="card-header" id="headingOne">
+                                <div class="row">
+                                    <div class="col-10 text-left pb-0">
+                                        <h5>Office Boy (OB)</h5>
+                                    </div>
+                                    <div class="col-2 text-right">
+                                        <i class="fa fa-angle-down "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
 
-                             </div>
-                             </h5>
-                     </a>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordionExample">
+                            <div class="card-body">
+                                <div class="card-body text-left">
+                                    <h7>Requirement :</h7><br />
+                                    <ul>
+                                        <li>Pendidikan minimal SLTA/SMA sederajat.</li>
+                                        <li>Usia maksmial 28Th.</li>
+                                        <li>Sehat jasmani dan rohani.</li>
+                                        <li>Jujur, rajin, rapih, bersih, semangat dan cekatan.</li>
+                                        <li>Bersedia ditempatkan di <b>Jakarta</b>.</li>
+                                    </ul>
+                                    <br />
+                                    <h7>Job Description :</h7><br />
+                                    <ul>
+                                        <li>Bertanggung jawab terhadap kebersihan seluruh area kerja dan lingkungan
+                                            kantor.
+                                        </li>
+                                        <li>Mengontrol dan mematikan AC (Air Conditioning), listrik, komputer dan air
+                                            yang
+                                            tidak dipakai atau setelah jam kerja.</li>
+                                        <li>Memastikan semua pintu ruangan dan pintu kantor dalam keadaan terkunci
+                                            setelah
+                                            selesai jam kerja.</li>
+                                        <li>Membantu operasional karyawan.</li>
+                                    </ul>
+                                    <br />
+                                    <div class="text-center my-3">
+                                        <a
+                                            href="mailto:info@sahabatduamuda.com?subject=Office Boy&body=Silahkan isi data diri dan lampirkan CV">
+                                            <button class="btn btn-primary btn-sm text-lowercase px-4 py-2">
+                                                Apply !
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
 
-                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                         data-parent="#accordionExample">
-                         <div class="card-body text-left">
-                             <h7>Requirement :</h7><br />
-                             <ul>
-                                 <li>Pendidikan minimal SLTA/SMA sederajat.</li>
-                                 <li>Usia maksmial 28Th.</li>
-                                 <li>Sehat jasmani dan rohani.</li>
-                                 <li>Jujur, rajin, rapih, bersih, semangat dan cekatan.</li>
-                                 <li>Bersedia ditempatkan di <b>Jakarta</b>.</li>
-                             </ul>
-                             <br />
-                             <h7>Job Description :</h7><br />
-                             <ul>
-                                 <li>Bertanggung jawab terhadap kebersihan seluruh area kerja dan lingkungan kantor.
-                                 </li>
-                                 <li>Mengontrol dan mematikan AC (Air Conditioning), listrik, komputer dan air yang
-                                     tidak dipakai atau setelah jam kerja.</li>
-                                 <li>Memastikan semua pintu ruangan dan pintu kantor dalam keadaan terkunci setelah
-                                     selesai jam kerja.</li>
-                                 <li>Membantu operasional karyawan.</li>
-                             </ul>
-                             <br />
-                             <div class="text-center my-3">
-                                 <a
-                                     href="mailto:info@sahabatduamuda.com?subject=Office Boy&body=Silahkan isi data diri dan lampirkan CV">
-                                     <button class="btn btn-primary btn-sm text-lowercase px-4 py-2">
-                                         Apply !
-                                     </button>
-                                 </a>
-                             </div>
-                         </div>
-                     </div>
+                    <div class="card mt-3">
+                        <a type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                            aria-controls="collapseTwo">
+                            <div class="card-header" id="headingTwo">
+                                <div class="row">
+                                    <div class="col-10 text-left">
+                                        <h5>Office Girl (OG)</h5>
+                                    </div>
+                                    <div class="col-2 text-right">
+                                        <i class="fa fa-angle-down "></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
 
-                 </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                            data-parent="#accordionExample">
+                            <div class="card-body text-left">
+                                <h7>Requirement :</h7><br />
+                                <ul>
+                                    <li>Pendidikan minimal SLTA/SMA sederajat.</li>
+                                    <li>Usia maksmial 28Th.</li>
+                                    <li>Sehat jasmani dan rohani.</li>
+                                    <li>Jujur, rajin, rapih, bersih, semangat dan cekatan.</li>
+                                    <li>Bersedia ditempatkan di <b>Jakarta</b>.</li>
+                                </ul>
+                                <br />
+                                <h7>Job Description :</h7><br />
+                                <ul>
+                                    <li>Bertanggung jawab terhadap kebersihan seluruh area kerja dan lingkungan kantor.
+                                    </li>
+                                    <li>Mengontrol dan mematikan AC (Air Conditioning), listrik, komputer dan air yang
+                                        tidak
+                                        dipakai atau setelah jam kerja.</li>
+                                    <li>Memastikan semua pintu ruangan dan pintu kantor dalam keadaan terkunci setelah
+                                        selesai
+                                        jam kerja.</li>
+                                    <li>Membantu operasional karyawan.</li>
+                                </ul>
+                                <br />
+                                <div class="text-center my-3">
+                                    <a
+                                        href="mailto:info@sahabatduamuda.com?subject=Office Girl&body=Silahkan isi data diri dan lampirkan CV">
+                                        <button class="btn btn-primary btn-sm text-lowercase px-4 py-2">
+                                            Apply !
+                                        </button>
+                                    </a>
+                                </div>
 
-                 <a type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
-                     aria-controls="collapseTwo">
-                     <div class="card shadow-sm rounded">
-                         <div class="card-header" id="headingTwo">
-                             <h5 class="mb-0 text-left">
-                                 <div class="row">
-                                     <div class="col-10 text-left">
-                                         Office Girl (OG)
-                                     </div>
-                                     <div class="col-2 text-right">
-                                         <i class="fa fa-angle-down "></i>
-                                     </div>
-                                 </div>
-                             </h5>
-                         </div>
-                 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                     <div class="card-body text-left">
-                         <h7>Requirement :</h7><br />
-                         <ul>
-                             <li>Pendidikan minimal SLTA/SMA sederajat.</li>
-                             <li>Usia maksmial 28Th.</li>
-                             <li>Sehat jasmani dan rohani.</li>
-                             <li>Jujur, rajin, rapih, bersih, semangat dan cekatan.</li>
-                             <li>Bersedia ditempatkan di <b>Jakarta</b>.</li>
-                         </ul>
-                         <br />
-                         <h7>Job Description :</h7><br />
-                         <ul>
-                             <li>Bertanggung jawab terhadap kebersihan seluruh area kerja dan lingkungan kantor.</li>
-                             <li>Mengontrol dan mematikan AC (Air Conditioning), listrik, komputer dan air yang tidak
-                                 dipakai atau setelah jam kerja.</li>
-                             <li>Memastikan semua pintu ruangan dan pintu kantor dalam keadaan terkunci setelah selesai
-                                 jam kerja.</li>
-                             <li>Membantu operasional karyawan.</li>
-                         </ul>
-                         <br />
-                         <div class="text-center my-3">
-                             <a
-                                 href="mailto:info@sahabatduamuda.com?subject=Office Girl&body=Silahkan isi data diri dan lampirkan CV">
-                                 <button class="btn btn-primary btn-sm text-lowercase px-4 py-2">
-                                     Apply !
-                                 </button>
-                             </a>
-                         </div>
+             </div> 
+          </div> <!-- end row -->
+         </div> <!-- end container -->
+     </div> <!-- end bg-karir -->
+    </section> <!-- end karir -->   
 
-                     </div>
-                 </div>
-
-                 </div> 
-                </div> <!-- end row -->
-
-                 </div> <!-- end container -->
-             </div> <!-- end bg-karir -->
-    </section> <!-- end karir -->
-    
 
   <section class="contact text-white pb-5 mt-n5" id="contact">
       <!-- Footer Links -->
@@ -448,9 +453,6 @@
               </div>
               <hr class="clearfix w-100 d-md-none">
 
-              
-              <!-- <hr class="clearfix w-100 d-md-none pb-1"> -->
-
               <!-- Alamat -->
               <div class="col-md-4 offset-md-5 mt-0 text-left ">
                   <div class="row ">
@@ -459,7 +461,8 @@
                       </div>
                       <div class="col-11 text-contact "> 
                           <p>
-                              <a target="_blank" href="https://www.google.com/maps/@-6.1833105,106.7526679,3a,90y,26.07h,114.58t/data=!3m6!1e1!3m4!1stt-Fmm_vixvKGrMB_CGgbw!2e0!7i13312!8i6656">
+                              <a target="_blank"
+                                  href="https://goo.gl/maps/ZjkXfqAejKGi7cqA8">
                                  Jl. Puri Kembangan, no.63, RT.011/RW.005, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta
                               </a>
                         </p>
@@ -489,27 +492,32 @@
                   </div>
 
               </div> <!-- End Alamat -->
-               </div> <!-- End Row All -->
+              <div class="col-12 mt-3">
+                  <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.6517689957794!2d106.752667850215!3d-6.183310472833062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f70bfcddf79d%3A0x327537e7dee4a3a!2sJl.%20Puri%20Kembangan%20No.65A%2C%20RT.11%2FRW.5%2C%20Kembangan%20Sel.%2C%20Kec.%20Kembangan%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011610!5e0!3m2!1sid!2sid!4v1580382103872!5m2!1sid!2sid"
+                      width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="">
+                    </iframe>
+              </div>
+            </div> <!-- End Row All -->
           
         
           <hr class="hr-contact">
 
           <!-- =============================  Footer bottom  ============================= -->
+
     
               <!-- Copyright footer large size -->
               <div class="d-none d-md-block ">
-                  <div class="row">
-                      <div class="col-6">
+                  <div class="row pb-n5">
+                      <div class="col-6 ">
                           <div class="text-left">
                               <p class="text-faded font-weight-lighter copyright">
-                                  Copyright©2019 | made with
-                                  <i class="fas fa-heart text-copy"></i> and
-                                  <i class="fas fa-coffee text-copy"></i>
+                                   Copyright©2020 | Sahabat Dua Muda
                               </p>
                           </div>
                       </div>
 
-                      <div class="col-6">
+                      <div class="col-6 ">
                           <div class="text-left text-contact">
                               <a href="#page-top" class="js-scroll-trigger ">
                                   <i class="fa fa-2x fa-chevron-up "></i>
@@ -520,7 +528,7 @@
               </div>
 
                 <!-- Copyright footer small size-->
-              <div class="d-block d-md-none mt-0 ">
+              <div class="d-block d-md-none mt-0">
                   <div class="row ">
                       <div class="col-12 ">
                           <div class="text-center">
@@ -530,12 +538,10 @@
                           </div>
                       </div>
 
-                       <div class="col-12 ">
+                       <div class="col-12">
                            <div class="text-center mt-5 ">
                                <p class="text-faded font-weight-lighter copyright">
-                                   Copyright©2019 | made with <br>
-                                   <i class="fas fa-coffee text-copy"></i> and
-                                   <i class="fas fa-heart text-copy"></i>
+                                   Copyright©2020 | Sahabat Dua Muda
                                </p>
                            </div>
                        </div>
@@ -543,34 +549,20 @@
               </div>
             </div>
       </div> <!-- End Grid column/ Container   -->
-
   </section>
-
-    <!-- Button trigger modal -->
-    <!-- <button type="button" class="btn btn-primary sr-button" data-toggle="modal" data-target="#exampleModalCenter">
-        Pop up
-    </button> -->
-
     
 </body>
+<footer>
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    
+     <!-- Plugin JavaScript -->
+     <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+     <script src="vendor/slick/slick.js"></script>
+     <!-- Custom scripts for this template -->
+     <script src="asset/js/style.js"></script>
 
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="vendor/jquery/jquery.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-      <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js'></script>
-
-        <!-- Plugin JavaScript -->
-        <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-        <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
-
-
-
-    <!-- Custom scripts for this template -->
-    <script src="asset/js/style.js"></script>
+</footer>
  
-  
-
 </html>

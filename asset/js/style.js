@@ -9,7 +9,7 @@
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
                 $('html, body').animate({
-                    scrollTop: (target.offset().top - 57)
+                    scrollTop: (target.offset().top - 50)
                 }, 1000, "easeInOutExpo");
                 return false;
             }
@@ -91,24 +91,5 @@
      ]
  });
 
- //acordion script
- var acc = document.getElementsByClassName("accordion");
- var i;
-
- for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    /* Toggle between adding and removing the "active" class,
-    to highlight the button that controls the panel */
-    this.classList.toggle("active");
-
-    /* Toggle between hiding and showing the active panel */
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
 
 })(jQuery); // End of use strict
