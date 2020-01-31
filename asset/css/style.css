@@ -52,6 +52,8 @@ h6 {
         sans-serif;
 }
 
+#more {display: none;}
+
 .bg-service {
     background-color: #1b89be;
 }
