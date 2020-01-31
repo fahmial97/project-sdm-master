@@ -37,21 +37,20 @@
     };
 
     // Read More Button
-    function myFunction() {
-        var dots = document.getElementById("dots");
-        var moreText = document.getElementById("more");
-        var btnText = document.getElementById("myBtn");
-      
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Read more";
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Read less";
-          moreText.style.display = "inline";
-        }
-      }
+    $(document).ready(function() {
+        $("#toggle").click(function() {
+          var elem = $("#toggle").text();
+          if (elem == "Baca selengkapnya") {
+            //Stuff to do when btn is in the read more state
+            $("#toggle").text("Tampilkan lebih sedikit");
+            $("#text").slideDown();
+          } else {
+            //Stuff to do when btn is in the read less state
+            $("#toggle").text("Baca selengkapnya");
+            $("#text").slideUp();
+          }
+        });
+      });
 
     // Collapse now if page is not at top
     navbarCollapse();
